@@ -23,7 +23,7 @@ Visit: **https://share.streamlit.io/**
 5. Click **"Deploy!"**
 
 ### Step 4: Wait for Deployment
-- Streamlit will install dependencies from `requirements_crq.txt`
+- Streamlit will install dependencies from `requirements.txt`
 - Deployment takes 2-5 minutes
 - Your app will be live at: `https://[your-app-name].streamlit.app`
 
@@ -90,7 +90,7 @@ az webapp up --name crq-app --resource-group your-rg --runtime "PYTHON:3.11"
 ## 📋 Files Pushed to GitHub
 
 ✅ `crq_app.py` - Main application (600+ lines)  
-✅ `requirements_crq.txt` - Python dependencies  
+✅ `requirements.txt` - Python dependencies  
 ✅ `README_CRQ.md` - Complete documentation  
 ✅ `.gitignore` - Git ignore rules  
 ✅ `.streamlit/config.toml` - Streamlit configuration  
@@ -126,7 +126,7 @@ git clone https://github.com/jamilqpr/crq.git
 cd crq
 
 # Install dependencies
-pip install -r requirements_crq.txt
+pip install -r requirements.txt
 
 # Run locally
 streamlit run crq_app.py
@@ -172,7 +172,7 @@ Streamlit Cloud provides:
 ## 🆘 Troubleshooting
 
 **App won't deploy?**
-- Check `requirements_crq.txt` format
+- Check `requirements.txt` format
 - Verify Python version compatibility
 - Check Streamlit Cloud logs
 

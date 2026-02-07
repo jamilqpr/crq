@@ -33,7 +33,7 @@ Where:
 ### Step 1: Install Dependencies
 
 ```bash
-pip install -r requirements_crq.txt
+pip install -r requirements.txt
 ```
 
 ### Step 2: Run the Application
